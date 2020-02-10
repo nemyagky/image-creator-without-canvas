@@ -1,0 +1,29 @@
+{
+  "name": "image-creator-without-canvas",
+  "version": "1.0.0",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magmiv/image-creator-without-canvas"
+  },
+  "author": "magmiv",
+  "scripts": {
+    "start": "nodemon app/index.ts",
+    "generate-image-with": "nodemon app/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/bmp-js": "^0.1.0",
+    "@types/node": "^13.7.0",
+    "bmp-js": "^0.1.0",
+    "fs": "0.0.1-security",
+    "load-bmfont": "^1.4.0",
+    "parse-bmfont-xml": "^1.1.4"
+  }
+}
