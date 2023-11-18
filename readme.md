@@ -1,4 +1,3 @@
-Для запуска программы необходимо:
-1) Установить node.js с официального сайта
-2) Установить зависимости с помощью команды npm i
-3) Запустить программу с помощью команды npm run generate-image-with число
+Type ```npm run generate-image-with your_string``` and it will generate .png image for you. 
+
+Under the hood it doesn't have canvas or any graphics API. It uses fonts to create .png images. It will parse font by pixels and create image by pixels using it  
